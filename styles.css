@@ -1,0 +1,199 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    position: relative;
+    text-align: center;
+}
+
+nav {
+    margin-left: 0px;
+    background-color: rgba(237, 228, 228, 0.679);
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 20px;
+    text-align: left;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+}
+
+.hero-section {
+    background-image: url('https://plus.unsplash.com/premium_photo-1683309565422-77818a287060?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D'); /* Replace with your own image */
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.logo h1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 15px 30px;
+    font-size: 28px;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+#about {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+footer {
+    padding: 120px;
+    text-align: center;
+    background-color: #a19c9c;
+    color: white;
+}
+
+footer button {
+    margin: 0;
+    font-size:16px;
+    margin-top:10px;
+}
+
+footer p{
+    font-size: 16px;
+    color: aliceblue;
+}
+
+footer:hover{
+    background-color: black;
+}
+
+footer div{
+    margin-bottom: 20px;
+}
+
+
+.container {
+    
+   margin :10px 10px;
+   padding:100px 100px;
+    background-color: white;
+    /* padding: 20px; */
+    /* box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    background: gray;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.image-container img {
+    width: 300px;
+    
+    height: 300px;
+    border-radius: 0px;
+}
+
+.text-content {
+    width: 60%;
+}
+
+.text-content p {
+    line-height: 1.6;
+    font-size: 16px;
+    color: #666;
+}
+
+.skills {
+    width: 100%;
+}
+
+.skills h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.skill span {
+    width: 120px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.bar {
+    flex-grow: 1;
+    height: 25px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 10px;
+}
+
+.percentage {
+    height: 100%;
+    background-color: #454845;
+    border-radius: 5px;
+}
+
+.percent-text {
+    font-size: 14px;
+}
